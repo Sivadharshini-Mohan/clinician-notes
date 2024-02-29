@@ -1,0 +1,89 @@
+.header-background {
+	height: 37px;
+	width: 1468px;
+	position: relative;
+	background-color: #97144d;
+	display: none;
+	max-width: 100%;
+  }
+  .acme-corporation {
+	width: 212px;
+	position: relative;
+	letter-spacing: 0.15px;
+	line-height: 160%;
+	font-weight: 500;
+	display: flex;
+	align-items: center;
+	flex-shrink: 0;
+	white-space: nowrap;
+	padding-right: 20px;
+	z-index: 1;
+  }
+  .f-r-a-m-e-a,
+  .f-r-a-m-e-b {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	box-sizing: border-box;
+  }
+  .f-r-a-m-e-b {
+	width: 1468px;
+	background-color: #97144d;
+	align-items: center;
+	padding: 4px 13px 6px;
+	max-width: 102%;
+	flex-shrink: 0;
+  }
+  .f-r-a-m-e-a {
+	align-self: stretch;
+	align-items: flex-start;
+	padding: 0;
+	max-width: 100%;
+	text-align: left;
+	font-size: 16px;
+	color: #fff;
+	font-family: Heebo;
+  }
+  .recordingsectionheader-wrapper {
+	flex: 1;
+	flex-direction: column;
+	padding: 21px 0 0;
+	box-sizing: border-box;
+	min-width: 624px;
+	max-width: 100%;
+  }
+  .desktop-1,
+  .recordingsectionheader-wrapper,
+  .rectangle-i {
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+  }
+  .rectangle-i {
+	align-self: stretch;
+	flex-direction: row;
+	padding: 0 20px 0 0;
+	box-sizing: border-box;
+	gap: 28px;
+	max-width: 100%;
+  }
+  .desktop-1 {
+	width: 100%;
+	position: relative;
+	background-color: #fff;
+	overflow: hidden;
+	flex-direction: column;
+	letter-spacing: normal;
+  }
+  @media screen and (max-width: 1200px) {
+	.rectangle-i {
+	  flex-wrap: wrap;
+	}
+  }
+  @media screen and (max-width: 750px) {
+	.recordingsectionheader-wrapper {
+	  min-width: 100%;
+	}
+  }
+  
+  

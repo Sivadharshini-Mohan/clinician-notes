@@ -1,0 +1,409 @@
+.profile-background-icon {
+	align-self: stretch;
+	height: 923px;
+	position: relative;
+	max-width: 100%;
+	overflow: hidden;
+	flex-shrink: 0;
+	display: none;
+  }
+  .timothy-jordan {
+	width: 206px;
+	flex: 1;
+	position: relative;
+	letter-spacing: 0.15px;
+	line-height: 160%;
+	font-weight: 500;
+	display: flex;
+	align-items: center;
+	z-index: 1;
+  }
+  .frame-inner,
+  .male-text {
+	border: 0;
+	background-color: transparent;
+	align-self: stretch;
+	height: 24px;
+	font-family: Heebo;
+	font-weight: 300;
+	font-size: 16px;
+	color: #000;
+  }
+  .male-text {
+	height: 26px;
+	font-weight: 100;
+	font-size: 15px;
+  }
+  .timothy-jordan-parent {
+	align-self: stretch;
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+	gap: 16px;
+  }
+  .heading11,
+  .patient-id1 {
+	align-self: stretch;
+	flex: 1;
+	position: relative;
+	letter-spacing: 0.15px;
+	line-height: 160%;
+	font-weight: 500;
+	display: flex;
+	align-items: center;
+	z-index: 1;
+  }
+  .patient-id1 {
+	font-weight: 300;
+  }
+  .heading1-group {
+	width: 207px;
+	height: 48px;
+	gap: 6px;
+  }
+  .frame-div,
+  .heading1-group,
+  .line-separator-inner {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+  }
+  .frame-div {
+	align-self: stretch;
+	height: 189px;
+	gap: 37px;
+  }
+  .line-separator-inner {
+	flex: 1;
+	padding: 4px 0 0;
+	box-sizing: border-box;
+	min-width: 143px;
+  }
+  .profile-picture-1 {
+	height: 93px;
+	width: 93px;
+	position: relative;
+	border-radius: 45px;
+	object-fit: cover;
+	z-index: 1;
+  }
+  .line-separator {
+	align-self: stretch;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: flex-start;
+	gap: 40px;
+  }
+  .patient-id-icon1 {
+	flex: 1;
+	position: relative;
+	max-width: 100%;
+	overflow: hidden;
+	max-height: 100%;
+	object-fit: contain;
+	margin-top: -1px;
+	z-index: 1;
+  }
+  .patient-i-dline {
+	align-self: stretch;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: flex-start;
+	padding: 0 0 20px;
+	box-sizing: border-box;
+	max-width: 100%;
+  }
+  .patient-id2 {
+	width: 206px;
+	flex: 1;
+	position: relative;
+	letter-spacing: 0.15px;
+	line-height: 160%;
+	font-weight: 300;
+	display: flex;
+	align-items: center;
+	z-index: 1;
+  }
+  .patient-id-icon2 {
+	align-self: stretch;
+	position: relative;
+	max-width: 100%;
+	overflow: hidden;
+	max-height: 100%;
+	object-fit: contain;
+	margin-top: -1px;
+	z-index: 1;
+  }
+  .i-d-frame {
+	align-self: stretch;
+	height: 44px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+	padding: 0 0 20px;
+	box-sizing: border-box;
+  }
+  .patient-id3 {
+	width: 206px;
+	flex: 1;
+	position: relative;
+	letter-spacing: 0.15px;
+	line-height: 160%;
+	font-weight: 300;
+	display: flex;
+	align-items: center;
+	z-index: 1;
+  }
+  .patient-id-icon3 {
+	align-self: stretch;
+	position: relative;
+	max-width: 100%;
+	overflow: hidden;
+	max-height: 100%;
+	object-fit: contain;
+	margin-top: -1px;
+	z-index: 1;
+  }
+  .i-d-frame1 {
+	align-self: stretch;
+	height: 64px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+	padding: 0 0 40px;
+	box-sizing: border-box;
+  }
+  .heading12,
+  .patient-id4 {
+	align-self: stretch;
+	flex: 1;
+	position: relative;
+	letter-spacing: 0.15px;
+	line-height: 160%;
+	font-weight: 500;
+	display: flex;
+	align-items: center;
+	z-index: 2;
+  }
+  .patient-id4 {
+	font-weight: 300;
+  }
+  .heading1-container {
+	width: 207px;
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+	gap: 6px;
+  }
+  .patient-id-icon4 {
+	align-self: stretch;
+	position: relative;
+	max-width: 100%;
+	overflow: hidden;
+	max-height: 100%;
+	object-fit: contain;
+	margin-top: -1px;
+	z-index: 2;
+  }
+  .frame-parent1 {
+	align-self: stretch;
+	height: 71px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+	padding: 0 1px 20px 0;
+	box-sizing: border-box;
+  }
+  .patient-id5 {
+	width: 206px;
+	position: relative;
+	letter-spacing: 0.15px;
+	line-height: 21px;
+	font-weight: 300;
+	display: flex;
+	align-items: center;
+	flex-shrink: 0;
+	z-index: 2;
+  }
+  .patient-id-wrapper {
+	align-self: stretch;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: flex-start;
+	padding: 0 1px;
+  }
+  .frame-wrapper,
+  .line-separator-parent {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	max-width: 100%;
+  }
+  .line-separator-parent {
+	align-self: stretch;
+	align-items: flex-end;
+  }
+  .frame-wrapper {
+	flex: 1;
+	align-items: flex-start;
+	padding: 32px 0 0;
+	box-sizing: border-box;
+	min-width: 231px;
+  }
+  .rectanglebackground {
+	height: 106px;
+	width: 6px;
+	position: relative;
+	background-color: #d9d9d9;
+	z-index: 2;
+  }
+  .frame-container {
+	width: 407px;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: flex-start;
+	padding: 0 0 0 20px;
+	box-sizing: border-box;
+	gap: 26px;
+	max-width: 100%;
+  }
+  .patient-id-icon5 {
+	align-self: stretch;
+	position: relative;
+	max-width: 100%;
+	overflow: hidden;
+	max-height: 100%;
+	object-fit: contain;
+	margin-top: -1px;
+	z-index: 2;
+  }
+  .patient-id6 {
+	width: 206px;
+	flex: 1;
+	position: relative;
+	letter-spacing: 0.15px;
+	line-height: 160%;
+	font-weight: 300;
+	display: flex;
+	align-items: center;
+	z-index: 2;
+  }
+  .patient-id-icon6 {
+	align-self: stretch;
+	position: relative;
+	max-width: 100%;
+	overflow: hidden;
+	max-height: 100%;
+	object-fit: contain;
+	margin-top: -1px;
+	z-index: 3;
+  }
+  .recordingsectionframe {
+	align-self: stretch;
+	height: 35px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+	padding: 0 3px 11px 2px;
+	box-sizing: border-box;
+  }
+  .profilepictureframe,
+  .profilepictureframe-wrapper {
+	display: flex;
+	justify-content: flex-start;
+	max-width: 100%;
+  }
+  .profilepictureframe {
+	align-self: stretch;
+	flex: 1;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+  }
+  .profilepictureframe-wrapper {
+	width: 408px;
+	height: 426px;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 0 31px 29px 20px;
+	box-sizing: border-box;
+  }
+  .read-more {
+	position: relative;
+	letter-spacing: 0.15px;
+	line-height: 150%;
+	font-weight: 500;
+	z-index: 2;
+  }
+  .contentcopyfilled-icon {
+	height: 15px;
+	width: 17px;
+	position: relative;
+	overflow: hidden;
+	flex-shrink: 0;
+	z-index: 2;
+  }
+  .contentcopyfilledinstance {
+	flex-direction: row;
+	align-items: center;
+	gap: 4px;
+  }
+  .contentcopyfilledinstance,
+  .profile-sidebar,
+  .readmoretext {
+	display: flex;
+	justify-content: flex-start;
+  }
+  .readmoretext {
+	align-self: stretch;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 0 36px;
+	color: #97144d;
+  }
+  .profile-sidebar {
+	width: 417px;
+	background-color: #f8eef2;
+	flex-direction: column;
+	align-items: flex-end;
+	padding: 0 0 25px;
+	box-sizing: border-box;
+	min-width: 417px;
+	max-width: 100%;
+	text-align: left;
+	font-size: 16px;
+	color: #000;
+	font-family: Heebo;
+  }
+  @media screen and (max-width: 1200px) {
+	.profile-sidebar {
+	  flex: 1;
+	}
+  }
+  @media screen and (max-width: 750px) {
+	.profile-sidebar {
+	  min-width: 100%;
+	}
+  }
+  @media screen and (max-width: 450px) {
+	.line-separator {
+	  flex-wrap: wrap;
+	  gap: 40px;
+	}
+	.frame-container {
+	  flex-wrap: wrap;
+	}
+  }

@@ -1,0 +1,444 @@
+global.css
+.recod-background {
+  width: 960px;
+  height: 355px;
+  position: relative;
+  border-radius: 30px;
+  background-color: rgba(217, 217, 217, 0.37);
+  display: none;
+  max-width: 100%;
+}
+.record-coversation {
+  margin: 0;
+  width: 326px;
+  height: 27px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.15px;
+  line-height: 160%;
+  font-weight: 500;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 1;
+}
+.record-voice-over-1-icon {
+  height: 200px;
+  width: 190px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.mic-button-icon {
+  width: 120px;
+  height: 120px;
+  position: relative;
+  z-index: 1;
+}
+.mic-button-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 14px 0 0;
+}
+.searchinstance1 {
+  width: 494px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  max-width: 100%;
+}
+.recoding-section,
+.searchfilledinstance {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 0 0 12px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.recoding-section {
+  border-radius: 30px;
+  background-color: rgba(217, 217, 217, 0.37);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 34px 53px 69px;
+  gap: 25px;
+}
+.transcription-section-child {
+  height: 469px;
+  width: 346px;
+  position: relative;
+  border-radius: 30px;
+  background-color: rgba(217, 217, 217, 0.36);
+  display: none;
+  max-width: 100%;
+}
+.transcription1 {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.15px;
+  line-height: 160%;
+  font-weight: 500;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}
+.record-conversation {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 3px 0 0;
+}
+.launch-1 {
+  margin: 0;
+  height: 25.9px;
+  width: 24.9px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.transcription {
+  align-self: stretch;
+  height: 32px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 1px 0 0;
+  box-sizing: border-box;
+  gap: 20px;
+}
+.lorem-ipsum-is-simply {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.15px;
+  line-height: 160%;
+  font-weight: 300;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.transcription-parent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 2px;
+}
+.rectangle-div {
+  width: 6.2px;
+  flex: 1;
+  position: relative;
+  background-color: #d9d9d9;
+  z-index: 2;
+}
+.transcription-section,
+.transcription-section-inner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.transcription-section-inner {
+  height: 129px;
+  flex-direction: column;
+  padding: 14px 1px 0 0;
+}
+.transcription-section {
+  width: 240px;
+  border-radius: 30px;
+  background-color: rgba(217, 217, 217, 0.36);
+  flex-direction: row;
+  padding: 23px 0 6px 31px;
+  max-height:"300px";
+  overflow: "auto";
+
+}
+.clinical-notes1 {
+  margin: 0;
+  align-self: stretch;
+  height: 29.4px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.15px;
+  line-height: 160%;
+  font-weight: 500;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.clinical-notes-container {
+  width: 196px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 4px 0 0;
+  box-sizing: border-box;
+}
+.launch-1-icon {
+  height: 26.2px;
+  width: 23.6px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.frame-parent3 {
+  width: 509px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  max-width: 100%;
+}
+.lorem-ipsum-is-simply1 {
+  margin: 0;
+  align-self: stretch;
+  height: 110px;
+  
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.15px;
+  line-height: 160%;
+  font-weight: 300;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.lorem-ipsum-is-simply-dummy-te-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  /*padding: 47px 0 0;*/
+  box-sizing: border-box;
+  min-width: 340px;
+  max-width: 100%;
+}
+.lorem-ipsum-child {
+  height: 115.5px;
+  width: 5.9px;
+  position: relative;
+  background-color: #d9d9d9;
+  z-index: 2;
+}
+.frame-parent2,
+.lorem-ipsum {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.lorem-ipsum {
+  flex-direction: row;
+  /*gap: 15px;
+  margin-top: -7px;*/
+}
+.frame-parent2 {
+  flex-direction: column;
+  padding: 0 1px 0 0;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.button-contained {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 30px;
+  background-color: rgba(217, 217, 217, 0.37);
+  z-index: 1;
+}
+.saerch-button1 {
+  position: relative;
+  letter-spacing: 0.4px;
+  line-height: 24px;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.unstyledbutton1 {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+}
+.search-button {
+  height: 29px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 1px 0 0;
+  box-sizing: border-box;
+}
+.buttoncontained1 {
+  flex: 1;
+  border-radius: 4px;
+  background-color: #97144d;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 26px 0 27px;
+}
+.button-container,
+.clinical-notes,
+.clinical-notes-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.button-container {
+  width: 175px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 21px;
+  font-size: 14px;
+  color: #fff;
+}
+.clinical-notes,
+.clinical-notes-wrapper {
+  flex-direction: column;
+  max-width: 100%;
+}
+.clinical-notes {
+  align-self: stretch;
+  align-items: flex-end;
+  padding: 22px 0 40px 36px;
+  position: relative;
+  gap: 44px;
+}
+.clinical-notes-wrapper {
+  flex: 1;
+  align-items: flex-start;
+  padding: 3px 0 0;
+  min-width: 378px;
+}
+.launchrecordingframe,
+.recordingsectionheader {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.launchrecordingframe {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 0 7px;
+  box-sizing: border-box;
+  gap: 26px;
+}
+.recordingsectionheader {
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 35px;
+  text-align: left;
+  font-size: 24px;
+  color: #000;
+  font-family: Heebo;
+}
+@media screen and (max-width: 1050px) {
+  .recoding-section {
+    padding-left: 26px;
+    padding-right: 26px;
+    box-sizing: border-box;
+  }
+  .transcription-section {
+    flex: 1;
+  }
+  .launchrecordingframe {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .transcription-section {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    box-sizing: border-box;
+  }
+  .lorem-ipsum {
+    flex-wrap: wrap;
+  }
+  .clinical-notes {
+    gap: 44px;
+  }
+  .recordingsectionheader {
+    gap: 35px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .record-coversation {
+    font-size: 19px;
+    line-height: 31px;
+  }
+  .searchinstance1 {
+    flex-wrap: wrap;
+  }
+  .recoding-section {
+    padding-top: 22px;
+    padding-bottom: 45px;
+    box-sizing: border-box;
+  }
+  .lorem-ipsum-is-simply,
+  .transcription1 {
+    font-size: 19px;
+    line-height: 31px;
+	
+  }
+  .transcription-section {
+    min-width: 100%;
+	
+  }
+  .clinical-notes1,
+  .lorem-ipsum-is-simply1 {
+    font-size: 19px;
+    line-height: 31px;
+  }
+  .lorem-ipsum-is-simply-dummy-te-wrapper {
+    min-width: 100%;
+  }
+  .clinical-notes {
+    padding-top: 20px;
+    padding-bottom: 26px;
+    box-sizing: border-box;
+  }
+  .clinical-notes-wrapper {
+    min-width: 100%;
+  }
+}

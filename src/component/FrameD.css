@@ -1,0 +1,163 @@
+.header-background1 {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	margin: 0 !important;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(151, 20, 77, 0.07);
+	z-index: 1;
+  }
+  .search {
+	border: 0;
+	background-color: transparent;
+	height: 38px;
+	flex: 1;
+	font-family: Heebo;
+	font-size: 16px;
+	color: rgba(0, 0, 0, 0.5);
+  }
+  .saerch-button {
+	position: relative;
+	font-size: 14px;
+	letter-spacing: 0.4px;
+	line-height: 24px;
+	text-transform: capitalize;
+	font-weight: 500;
+	font-family: Heebo;
+	color: #fff;
+	text-align: left;
+  }
+  .unstyledbutton {
+	cursor: pointer;
+	border: 0;
+	padding: 4px;
+	background-color: transparent;
+	align-self: stretch;
+	overflow: hidden;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+  }
+  .searchinstance {
+	height: 31px;
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+	padding: 0 5px 0 4px;
+	box-sizing: border-box;
+  }
+  .buttoncontained,
+  .tabtypographytab {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+  }
+  .buttoncontained {
+	width: 79px;
+	border-radius: 4px;
+	background-color: #97144d;
+	overflow: hidden;
+	flex-shrink: 0;
+	justify-content: center;
+	z-index: 2;
+  }
+  .tabtypographytab {
+	width: 304px;
+	justify-content: flex-start;
+	gap: 30px;
+  }
+  .tab {
+	flex: 1;
+	position: relative;
+	letter-spacing: 0.15px;
+	line-height: 160%;
+	font-weight: 500;
+  }
+  .typography {
+	align-self: stretch;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	padding: 8px;
+  }
+  .frame-h {
+	align-self: stretch;
+	height: 2px;
+	position: relative;
+	border-top: 2px solid #97144d;
+	box-sizing: border-box;
+  }
+  .tabitem,
+  .tabitem1 {
+	height: 48px;
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+	min-width: 130px;
+	z-index: 2;
+  }
+  .tabitem1 {
+	width: 100%;
+	border: 0;
+	outline: 0;
+	background-color: transparent;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	padding: 8px;
+	box-sizing: border-box;
+	font-family: Heebo;
+	font-weight: 500;
+	font-size: 20px;
+	color: rgba(0, 0, 0, 0.6);
+  }
+  .frame-d,
+  .tabheader,
+  .tabitemtypographytablinetabite {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: flex-start;
+  }
+  .tabitemtypographytablinetabite {
+	width: 400px;
+	row-gap: 20px;
+	max-width: 100%;
+  }
+  .frame-d,
+  .tabheader {
+	box-sizing: border-box;
+  }
+  .tabheader {
+	width: 1468px;
+	padding: 14px 30px 0;
+	position: relative;
+	gap: 400px;
+	min-height: 64px;
+	max-width: 102%;
+	flex-shrink: 0;
+  }
+  .frame-d {
+	align-self: stretch;
+	padding: 0;
+	max-width: 100%;
+	text-align: center;
+	font-size: 20px;
+	color: #97144d;
+	font-family: Heebo;
+  }
+  @media screen and (max-width: 1200px) {
+	.tabheader {
+	  flex-wrap: wrap;
+	  gap: 400px;
+	}
+  }
